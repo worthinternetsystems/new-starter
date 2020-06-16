@@ -9,7 +9,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h2>Letter to new starter at Worth</h2>
+        <h1>Letter to new starter at Worth</h1>
         <p>Dear, New Starter</p>
         <p>Welcome :)</p>
         <p>
@@ -33,16 +33,16 @@ export default function Home() {
         </ul>
         <p>
           Discover them all! Use the search and feel free to join any that look
-          interesting.{" "}
+          interesting.
         </p>
         <p>
           Hopefully, you’ve got your welcome box! At any point, you shouldn’t
           hesitate to speak to Holly (or Courtney if she isn’t immediately able
-          to help you!){" "}
+          to help you!)
         </p>
         <p>
           If you’ve got any spare moments, it’s worth getting your local
-          environment configured just the way you like it!{" "}
+          environment configured just the way you like it!
         </p>
         <p>Things we like:</p>
         <ul>
@@ -55,8 +55,10 @@ export default function Home() {
           <li>DrawIO</li>
           <li>Node</li>
         </ul>
-        Read #readingbookclub slack channel for what we're currently reading.
-        Toolkits:
+        <p>
+          Read #readingbookclub slack channel for what we're currently reading.
+        </p>
+        <p></p>Toolkits:
         <ul>
           <li>Getting started with React, serverless framework</li>
           <li>VSCode Extensions</li>
@@ -64,53 +66,32 @@ export default function Home() {
         </ul>
       </main>
 
-      <footer>
-        <a
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{" "}
-          <img src="/vercel.svg" alt="Vercel Logo" className="logo" />
-        </a>
-      </footer>
+
 
       <style jsx>{`
         .container {
           min-height: 100vh;
           padding: 0 0.5rem;
+          max-width: 60rem;
+          margin: auto;
           display: flex;
           flex-direction: column;
-          justify-content: center;
           align-items: center;
         }
 
         main {
           padding: 5rem 0;
-          flex: 1;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
+          
         }
 
         footer {
           width: 100%;
           height: 100px;
           border-top: 1px solid #eaeaea;
-          display: flex;
-          justify-content: center;
-          align-items: center;
         }
 
         footer img {
           margin-left: 0.5rem;
-        }
-
-        footer a {
-          display: flex;
-          justify-content: center;
-          align-items: center;
         }
 
         a {
@@ -133,11 +114,6 @@ export default function Home() {
           margin: 0;
           line-height: 1.15;
           font-size: 4rem;
-        }
-
-        .title,
-        .description {
-          text-align: center;
         }
 
         .description {
