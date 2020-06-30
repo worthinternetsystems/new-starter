@@ -9,65 +9,15 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Letter to new starter at Worth</h1>
-        <p>Dear, New Starter</p>
-        <p>Welcome :)</p>
+        <h1>Welcome to Engineering.</h1>
+       
+        <h2>🌍 Orbital</h2>
         <p>
-          Everything you’ll experience on the first day, get around ambiguity,
-          who you should talk to, low-level anxieties. What is the next thing
-          you might need? Where are you sitting and who is sitting around you.
-          Programs you need. What accounts to set up. List of slack channels.
+          R: Knowing what to do next. A: Share your problems. C: Being a
+          terminal for your colleagues. I: Company OKRs, where is the company
+          going next?
         </p>
-        <p>Where is everyone? We’re remoting a lot now.</p>
-        <p>
-          Eager to find people who don’t spell out certain rules. How to relax
-          in your role.
-        </p>
-        <p>It’s your first day!</p>
-        <h3>Get onto slack, the channels you’ll need are:</h3>
-        <ul>
-          <li>#Worth-Reading</li>
-          <li>#Tech</li>
-          <li>#FridayGuild</li>
-          <li>#Food (AMEND)</li>
-        </ul>
-        <p>
-          Discover them all! Use the search and feel free to join any that look
-          interesting.
-        </p>
-        <p>
-          Hopefully, you’ve got your welcome box! At any point, you shouldn’t
-          hesitate to speak to Holly (or Courtney if she isn’t immediately able
-          to help you!)
-        </p>
-        <p>
-          If you’ve got any spare moments, it’s worth getting your local
-          environment configured just the way you like it!
-        </p>
-        <p>Things we like:</p>
-        <ul>
-          <li>Brew (You can use this to quickly get the others!)</li>
-          <li>VSCode</li>
-          <li>Fish/ZSH</li>
-          <li>nano</li>
-          <li>Git</li>
-          <li>Zoom</li>
-          <li>DrawIO</li>
-          <li>Node</li>
-        </ul>
-        <p>
-          Read #readingbookclub slack channel for what we're currently reading.
-        </p>
-        <p></p>Toolkits:
-        <ul>
-          <li>Getting started with React, serverless framework</li>
-          <li>VSCode Extensions</li>
-          <li>DrawIO</li>
-        </ul>
-
       </main>
-
-
 
       <style jsx>{`
         .container {
@@ -82,7 +32,6 @@ export default function Home() {
 
         main {
           padding: 5rem 0;
-          
         }
 
         footer {

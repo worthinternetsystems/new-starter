@@ -9,65 +9,24 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1>Letter to new starter at Worth</h1>
-        <p>Dear, New Starter</p>
-        <p>Welcome :)</p>
+        <h1>Welcome to Engineering.</h1>
+        <h2>Ignition</h2>
+        Have you got access? Slack The people Channels #Worth-reading 🤗
+        #snowfeverworthsnow ☃⛄️ Do you know what project are you on? We’ll help
+        you get connected. Do you know how to get your email?📧 Where do you
+        feel you’re at? What are your expectations? Would you like a stretch
+        goal. Who is your 1 to 1 er? How do I know I’m doing OK.
+        <p>R : Get yourself comfortable 🧶</p>
+        <p>A : Saying hello on slack, make yourself known👀</p>
         <p>
-          Everything you’ll experience on the first day, get around ambiguity,
-          who you should talk to, low-level anxieties. What is the next thing
-          you might need? Where are you sitting and who is sitting around you.
-          Programs you need. What accounts to set up. List of slack channels.
-        </p>
-        <p>Where is everyone? We’re remoting a lot now.</p>
-        <p>
-          Eager to find people who don’t spell out certain rules. How to relax
-          in your role.
-        </p>
-        <p>It’s your first day!</p>
-        <h3>Get onto slack, the channels you’ll need are:</h3>
-        <ul>
-          <li>#Worth-Reading</li>
-          <li>#Tech</li>
-          <li>#FridayGuild</li>
-          <li>#Food (AMEND)</li>
-        </ul>
-        <p>
-          Discover them all! Use the search and feel free to join any that look
-          interesting.
+          C : Have people asked if you’re OK? Have you been asked what your
+          T-Shirt size is🦻
         </p>
         <p>
-          Hopefully, you’ve got your welcome box! At any point, you shouldn’t
-          hesitate to speak to Holly (or Courtney if she isn’t immediately able
-          to help you!)
+          I : Have you got your welcome box? Welcome email? some calendar
+          invites?
         </p>
-        <p>
-          If you’ve got any spare moments, it’s worth getting your local
-          environment configured just the way you like it!
-        </p>
-        <p>Things we like:</p>
-        <ul>
-          <li>Brew (You can use this to quickly get the others!)</li>
-          <li>VSCode</li>
-          <li>Fish/ZSH</li>
-          <li>nano</li>
-          <li>Git</li>
-          <li>Zoom</li>
-          <li>DrawIO</li>
-          <li>Node</li>
-        </ul>
-        <p>
-          Read #readingbookclub slack channel for what we're currently reading.
-        </p>
-        <p></p>Toolkits:
-        <ul>
-          <li>Getting started with React, serverless framework</li>
-          <li>VSCode Extensions</li>
-          <li>DrawIO</li>
-        </ul>
-
       </main>
-
-
 
       <style jsx>{`
         .container {
@@ -82,7 +41,6 @@ export default function Home() {
 
         main {
           padding: 5rem 0;
-          
         }
 
         footer {
