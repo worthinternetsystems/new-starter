@@ -4,30 +4,12 @@ export default function Home() {
   return (
     <div className="container">
       <main>
+        <p>This is a letter from the Worth engineering
+          team to you to help you get settled OK. Read on ...</p>
         <ul className="home">
           <li>
             <Link href="/launch/ignition">
               <a>Ignition</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/launch/lift-off">
-              <a>Lift off!</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/launch/stage-one-seperation">
-              <a>Stage 1 Seperation</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/launch/stage-two-seperation">
-              <a>Stage 2 Seperation</a>
-            </Link>
-          </li>
-          <li>
-            <Link href="/launch/orbital">
-              <a>Orbital</a>
             </Link>
           </li>
         </ul>

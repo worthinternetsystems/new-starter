@@ -8,9 +8,9 @@ const SiteLayout = ({ children }) => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <h1>Welcome to Worth Engineering</h1>
+    <h1><Link href="/"><a>Welcome to Worth Engineering</a></Link></h1>
     <div>{children}</div>
-    <ul className="home">
+    <ul className="menu">
       <li>
         <Link href="/launch/ignition">
           <a>Ignition</a>

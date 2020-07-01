@@ -9,13 +9,18 @@ h2 {
   font-size: 2em;
 }
 
-ul.home {
+ul.home, ul.menu {
   font-size: 200%;
 }
 
-.home li {
+.home li, .menu li { 
   padding-top: 1em;
   text-align: right;
+}
+
+.menu {
+  border: 1px solid black;
+  padding: 1em;
 }
 
 .raci {
@@ -24,7 +29,7 @@ ul.home {
   padding: 1em;
 }
 
-.raci li, .home li {
+.raci li, .home li, .menu li {
   list-style: none;
 }
 
