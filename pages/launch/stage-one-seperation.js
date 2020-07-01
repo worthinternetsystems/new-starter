@@ -1,7 +1,10 @@
 export default function Home() {
   return (
     <main>
-      <h2>💦Stage 1 Separation</h2>
+      <h2>
+        <span role="img" aria-label="separation">💦</span>
+        Stage 1 Separation
+      </h2>
       Project situation People in project - in team, beyond team In squad
       Signed up with project services - access Orientation & Logistics
       <ul className="raci">
