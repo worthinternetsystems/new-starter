@@ -10,7 +10,7 @@ export default function Home() {
 
       <main>
         <h1>Welcome to Engineering.</h1>
-       
+
         <h2>🌍 Orbital</h2>
         <p>
           R: Knowing what to do next. A: Share your problems. C: Being a
@@ -133,18 +133,7 @@ export default function Home() {
       `}</style>
 
       <style jsx global>{`
-        html,
-        body {
-          padding: 0;
-          margin: 0;
-          font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
-            Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue,
-            sans-serif;
-        }
 
-        * {
-          box-sizing: border-box;
-        }
       `}</style>
     </div>
   );
