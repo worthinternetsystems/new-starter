@@ -1,15 +1,7 @@
-import Head from "next/head";
 
 export default function Home() {
   return (
-    <div className="container">
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-
       <main>
-        <h1>Welcome to Engineering.</h1>
         <h2>Ignition</h2>
         <p>Hello. 🤗</p>
         <p>
@@ -69,6 +61,5 @@ export default function Home() {
           </li>
         </ul>
       </main>
-    </div>
-  );
+  )
 }

@@ -23,7 +23,7 @@ export default function Home() {
           </li>
           <li>
             <Link href="/launch/stage-one-seperation">
-              <a>Stage 1 Seperation</a>
+              <a>Stage 1 S neperation</a>
             </Link>
           </li>
           <li>
