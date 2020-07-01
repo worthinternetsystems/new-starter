@@ -5,8 +5,10 @@ export default function Home() {
         <span role="img" aria-label="separation">💦</span>
         Stage 1 Separation
       </h2>
-      Project situation People in project - in team, beyond team In squad
-      Signed up with project services - access Orientation & Logistics
+      <p>
+        You should be now engaged in your team and in flow. Sharing your ideas and
+        building products that add value. Hopefully you now most of your team by now and know who to go to when you need help.
+      </p>
       <ul className="raci">
         <li className="responsible">
           Being opinionated, challenging your team (approach etc), helping

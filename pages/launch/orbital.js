@@ -1,8 +1,6 @@
 export default function Home() {
   return (
     <main>
-      <h1>Welcome to Engineering.</h1>
-
       <h2>🌍 Orbital</h2>
       <ul className="raci">
         <li className="responsible">Knowing what to do next.</li>
