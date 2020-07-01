@@ -51,19 +51,20 @@ export default function Home() {
             </ul>
           </li>
         </ul>
+
         <ul className="raci">
-          <li>
-            <span>R: </span>Get yourself comfortable 🧶
+          <li className="responsible">
+            Get yourself comfortable 🧶
           </li>
-          <li>
-            <span>A: </span>Saying hello on slack, make yourself known👀
+          <li className="accountable">
+            Saying hello on slack, make yourself known👀
           </li>
-          <li>
-            <span>C: </span>Have people asked if you’re OK? Have you been asked
+          <li className="consulted">
+            Have people asked if you’re OK? Have you been asked
             what your T-Shirt size is🦻
           </li>
-          <li>
-            <span>I: </span>Have you got your welcome box? Welcome email? some
+          <li className="informed">
+            Have you got your welcome box? Welcome email? some
             calendar invites? 📅
           </li>
         </ul>
