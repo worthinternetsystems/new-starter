@@ -10,6 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
+
       <ul>
       <li><Link href="/launch/lift-off"><a>Lift off!</a></Link></li>
       <li><Link href="/launch/ignition"><a>Ignition</a></Link></li>
