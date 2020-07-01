@@ -16,7 +16,7 @@ export default function Home() {
           Give Mark feedback. - What did you not like about the onboarding
           process?
         </li>
-        <li className="consulted">Have you got feedback from your peers?/li>
+        <li className="consulted">Have you got feedback from your peers?</li>
         <li className="informed">
           Informed by Mark at the company update about the general state of
           things.
