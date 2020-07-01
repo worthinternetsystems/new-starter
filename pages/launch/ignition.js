@@ -15,9 +15,7 @@ export default function Home() {
       </p>
       <p>
         Where do
-        {' '}
         <em>you</em>
-        {' '}
         want to go? We'll be talking to you about
         progression and lots of other things! But again don't worry about that
         yet. 🙂
@@ -32,9 +30,12 @@ export default function Home() {
               <ul>
                 <li>#worth-reading</li>
                 <li>#tech</li>
+                <li>#fridayguild</li>
+                <li>#readingbookclub</li>
                 <li>#snowfeverworth</li>
               </ul>
-            </li>
+              Search for more and join in the conversation. It's a great way to get involved.
+           </li>
             <li>
               You should have received a few calendar invites
               <ul>
@@ -84,6 +85,32 @@ export default function Home() {
           calendar invites? 📅
         </li>
       </ul>
-    </main>
+
+      <p>
+        If you’ve got any spare moments, it’s worth getting your local
+        environment configured just the way you like it and exploring some 
+        getting started guides.
+      </p>
+        <p>Tools we like:</p>
+        <ul>
+          <li>Brew (You can use this to quickly get the others!)</li>
+          <li>VSCode/IntelliJ</li>
+          <li>Fish/ZSH</li>
+          <li>nano/vi</li>
+          <li>Git</li>
+          <li>Zoom</li>
+          <li>DrawIO</li>
+        </ul>
+      <p>
+        Tech we currently like include
+      </p>
+      <ul>
+        <li>Node, Java & C#</li>
+        <li>React (inc Native)</li>
+        <li>Serverless Framework</li>
+        <li>Docker</li>
+        <li>Terraform</li>
+      </ul>
+   </main>
   );
 }
