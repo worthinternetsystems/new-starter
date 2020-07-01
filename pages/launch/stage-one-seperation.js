@@ -1,14 +1,12 @@
-import Head from "next/head";
-
 export default function Home() {
   return (
-      <main>
-        <h2>💦Stage 1 Separation</h2>
-        Project situation People in project - in team, beyond team In squad
-        Signed up with project services - access Orientation & Logistics
-    <ul className="raci">
+    <main>
+      <h2>💦Stage 1 Separation</h2>
+      Project situation People in project - in team, beyond team In squad
+      Signed up with project services - access Orientation & Logistics
+      <ul className="raci">
         <li className="responsible">
-           Being opinionated, challenging your team (approach etc), helping
+          Being opinionated, challenging your team (approach etc), helping
           your team
         </li>
         <li className="accountable">
@@ -21,7 +19,7 @@ export default function Home() {
           Do you know the company values? Do you know the mission/objective
           of your project?
         </li>
-       </ul>
-      </main>
+      </ul>
+    </main>
   );
 }
