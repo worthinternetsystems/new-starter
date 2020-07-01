@@ -1,1 +1,12 @@
-This is a starter template for [Learn Next.js](https://nextjs.org/learn).
+# New Starter
+
+## tl;dr
+
+    yarn
+    yarn dev
+
+## Contributing
+
+Lint
+
+    npx eslint pages/* --fix
