@@ -6,11 +6,14 @@ export default function Home() {
         <h1>Welcome to Engineering.</h1>
 
         <h2>🌍 Orbital</h2>
-        <p>
-          R: Knowing what to do next. A: Share your problems. C: Being a
-          terminal for your colleagues. I: Company OKRs, where is the company
-          going next?
-        </p>
+        <ul className="raci">
+          <li className="responsible">Knowing what to do next.</li>
+          <li className="accountable">Share your problems</li>
+    <li className="consulted">Being a
+          terminal for your colleagues</li>
+    <li className="informed">Company OKRs, where is the company
+          going next?</li>
+        </ul>
       </main>
   );
 }
