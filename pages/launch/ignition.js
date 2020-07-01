@@ -53,7 +53,7 @@ export default function Home() {
         As you step through your first days, weeks and months at Worth, we've
         put together
         a few RACI check lists, to indicate what you are
-        &nbsp;<b>R</b>
+        &nbsp;<strong>R</strong>
         esponsible for,
         what
         you are
@@ -63,7 +63,7 @@ export default function Home() {
         onsulted about
         and what you
         should be
-        &nbps;<b>I</b>
+        &nbsp;<b>I</b>
         nformed about. Come back to these as you ramp up and
         make sure you're
         on track. Ask for help if some of them aren't clear.
