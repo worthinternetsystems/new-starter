@@ -26,14 +26,17 @@ export default function Home() {
         testing Practical pairing/mobbing - simple starting exercise Mob can be
         responsible for the bootstrap / introducing new person to how we work
         Guilds Ceremonies Digidrinks Tech guild (Friday Guild) NL Guilds</p>
-        <p>R: Get coding - get stuff installed</p>
-        <p>A: commit some code. Are you logging your time?</p>
-        <p>C: Have you been given what you need to start work? Any blockers?</p>
-        <p>
-          I: Have you been told that you have to do a presentation about
+
+    <ul className="raci">
+      <li className="responsible">Get coding - get stuff installed</li>
+      <li className="accountable">Commit some code. Are you logging your time?</li>
+      <li className="consulted">Have you been given what you need to start work? Any blockers?</li>
+        <li className="informed">
+          Have you been told that you have to do a presentation about
           yourself yet? Have you been talked through the code base that you’re
           working on. Have you been introduced to all of your squadmates?
-        </p>
+        </li>
+    </ul>
         We'll help you learn about
         <ul>
           <li>Test Pyramid</li>

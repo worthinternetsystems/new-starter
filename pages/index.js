@@ -10,7 +10,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <ul>
+        <ul className="home">
           <li>
             <Link href="/launch/ignition">
               <a>Ignition</a>
@@ -23,12 +23,12 @@ export default function Home() {
           </li>
           <li>
             <Link href="/launch/stage-one-seperation">
-              <a>Stage 1 seperation</a>
+              <a>Stage 1 Seperation</a>
             </Link>
           </li>
           <li>
             <Link href="/launch/stage-two-seperation">
-              <a>Stage 2 seperation</a>
+              <a>Stage 2 Seperation</a>
             </Link>
           </li>
           <li>
