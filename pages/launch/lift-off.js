@@ -17,7 +17,8 @@ export default function Home() {
         is quicker than working as individuals, because you can make decisions much
     quicker. More important at the moment, though, is that it's a great place to
     learn. It'll put you in driving seat quickly and you'll have the support so you
-    won't feel alone and you won't fear mistakes.</p>
+    won't feel alone and you won't fear mistakes. You'll being code in the open
+    and learning rapidly.</p>
 
     <p>To work in the mob you're going to have to get connected to the source code
     (github, bitbucket, Azure Devops etc) - i.e. the products we build - 
@@ -30,13 +31,12 @@ export default function Home() {
     may need to claim expenses (Expensify). You'll probably want to book holidays
     (timestastic).</p>
 
-          <p>Access Harvest Timetastic Slack Orientation & Logistics
-        Access to project bitbucket/azure etc Invitations to events - standups/
-        meetings / digidrinks Ceremony invites for their project Describe the
-        way that we work - code in the open, embrace failure and ignorance,
-        testing Practical pairing/mobbing - simple starting exercise Mob can be
-        responsible for the bootstrap / introducing new person to how we work
-        Guilds Ceremonies Digidrinks Tech guild (Friday Guild) NL Guilds</p>
+    <p>And finally we meet up several times a week for some group activities.
+    We do prefer to meet up in person, but we're in interesting times at the moment
+    so get used to lots of zoom, google meetings and slack calls. We have a social
+    once a week currently called Thirsty Thursday, or DigiDrinks if we have it on
+    Friday. We also have guild meetings, company updates every other week. NL run
+    Guilds as well, which are great to get in to.</p>
 
     <ul className="raci">
       <li className="responsible">Get coding - get stuff installed</li>
