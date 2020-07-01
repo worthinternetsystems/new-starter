@@ -32,8 +32,6 @@ export default function Home() {
                   <li>#snowfeverworth</li>
                 </ul>
               </li>
-              <li>Email 📧</li>
-              <li>Harvest (Timesheets)</li>
               <li>
                 You should have received a few calendar invites
                 <ul>

@@ -7,12 +7,30 @@ export default function Home() {
         <p>Let's help get you started & installed </p>
         <ul>
           <li>Who Worth is?</li>
-          <li>Values</li>
-          <li>People at Worth</li>
+          <li>Values and what they mean in practice? Expert, Open, Impact, Pragmatic, Team.</li>
+         <li>People at Worth</li>
         </ul>
-        <p>
+        
+        <p>We'll be getting you into a project as quickly as possible. We operate
+        a lot as a mob (you'll understand more about what that means as you go along).
+        It's essentially a team, but you'll work on the same thing together. This
+        is quicker than working as individuals, because you can make decisions much
+    quicker. More important at the moment, though, is that it's a great place to
+    learn. It'll put you in driving seat quickly and you'll have the support so you
+    won't feel alone and you won't fear mistakes.</p>
 
-         - access Harvest Timetastic Slack Orientation & Logistics
+    <p>To work in the mob you're going to have to get connected to the source code
+    (github, bitbucket, Azure Devops etc) - i.e. the products we build - 
+    get connected to the project mission / goals - i.e. what we're building and why.
+    Our teams are often a hybrid of Worth employees, contractors and clients - we're
+    all aligned on the common goal so we're all equal, open and mostly friendly.
+    You'll get invites to common ceremonies such as stand ups, show and tells.</p>
+
+    <p>You'll also need to log your time (Harvest). Once we're out of lock down you
+    may need to claim expenses (Expensify). You'll probably want to book holidays
+    (timestastic).</p>
+
+          <p>Access Harvest Timetastic Slack Orientation & Logistics
         Access to project bitbucket/azure etc Invitations to events - standups/
         meetings / digidrinks Ceremony invites for their project Describe the
         way that we work - code in the open, embrace failure and ignorance,
@@ -30,7 +48,7 @@ export default function Home() {
           working on. Have you been introduced to all of your squadmates?
         </li>
     </ul>
-        We'll help you learn about
+        We really care about the followins, and we'll explain why they're important to us.
         <ul>
           <li>Test Pyramid</li>
           <li>TDD / BDD</li>
