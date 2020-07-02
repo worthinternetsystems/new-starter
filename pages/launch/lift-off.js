@@ -6,9 +6,9 @@ export default function Home() {
       <h2>Lift Off</h2>
       <p>Let's help get you started & installed </p>
       <ul>
-        <li>Who Worth is?</li>
+        <li>Who WORTH is?</li>
         <li>Values and what they mean in practice? Expert, Open, Impact, Pragmatic, Team.</li>
-        <li>People at Worth</li>
+        <li>People at WORTH</li>
       </ul>
 
       <p>
@@ -26,7 +26,7 @@ export default function Home() {
         To work in the mob you're going to have to get connected to the source code
         (github, bitbucket, Azure Devops etc) - i.e. the products we build -
         get connected to the project mission / goals - i.e. what we're building and why.
-        Our teams are often a hybrid of Worth employees, contractors and clients - we're
+        Our teams are often a hybrid of WORTH employees, contractors and clients - we're
         all aligned on the common goal so we're all equal, open and mostly friendly.
         You'll get invites to common ceremonies such as stand ups, show and tells.
       </p>

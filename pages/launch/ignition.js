@@ -50,7 +50,7 @@ export default function Home() {
       </ul>
 
       <p>
-        As you step through your first days, weeks and months at Worth, we've
+        As you step through your first days, weeks and months at WORTH, we've
         put together
         a few RACI check lists, to indicate what you are
         &nbsp;<strong>R</strong>
