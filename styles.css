@@ -64,7 +64,7 @@ ul.home, ul.menu {
   margin: auto;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 main {
