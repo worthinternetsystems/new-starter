@@ -1,7 +1,11 @@
 export default function Home() {
   return (
     <main>
-      <h2>🌍 Orbital</h2>
+      <h2>
+        Orbital
+        {' '}
+        <span role="img" aria-label="">🌍</span>
+      </h2>
       <ul className="raci">
         <li className="responsible">Knowing what to do next.</li>
         <li className="accountable">Share your problems</li>

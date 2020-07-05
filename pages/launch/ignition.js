@@ -1,11 +1,15 @@
 export default function Home() {
   return (
     <main>
-      <h2>Ignition</h2>
+      <h2>
+        Ignition
+        {' '}
+        <span role="img" aria-label="">⚡️</span>
+      </h2>
       <p>
         <strong><em>Hello!!!</em></strong>
         {' '}
-        <span role="img" aria-label="">👋🚀🙌🤗</span>
+        <span role="img" aria-label="">🤗</span>
       </p>
       <p>
         We just want to make sure that you have access to anything you might need, you&apos;ve gotten
@@ -88,21 +92,21 @@ export default function Home() {
         As you step through your first days, weeks and months at WORTH, we&apos;ve
         put together
         a few RACI check lists, to indicate what you are
-        &nbsp;
+        {' '}
         <strong>R</strong>
         esponsible for,
         what
         you are
-        &nbsp;
-        <b>A</b>
+        {' '}
+        <strong>A</strong>
         ccountable for, what you should be
-        &nbsp;
-        <b>C</b>
+        {' '}
+        <strong>C</strong>
         onsulted about
         and what you
         should be
-        &nbsp;
-        <b>I</b>
+        {' '}
+        <strong>I</strong>
         nformed about. Come back to these as you ramp up and
         make sure you&apos;re
         on track. Ask for help if some of them aren&apos;t clear.

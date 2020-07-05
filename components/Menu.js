@@ -14,11 +14,11 @@ const Menu = () => {
     },
     {
       address: '/launch/stage-one-seperation',
-      label: 'Stage 1 Seperation',
+      label: 'Stage 1 Separation',
     },
     {
       address: '/launch/stage-two-seperation',
-      label: 'Stage 2 Seperation',
+      label: 'Stage 2 Separation',
     },
     {
       address: '/launch/orbital',

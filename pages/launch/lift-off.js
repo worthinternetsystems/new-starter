@@ -3,7 +3,12 @@ import Head from 'next/head';
 export default function Home() {
   return (
     <main>
-      <h2>Lift Off</h2>
+      <h2>
+        Lift Off
+        {' '}
+        <span role="img" aria-label="">🚀</span>
+      </h2>
+
       <p>Let's help get you started & installed </p>
       <ul>
         <li>Who WORTH is?</li>

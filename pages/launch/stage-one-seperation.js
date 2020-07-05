@@ -2,8 +2,9 @@ export default function Home() {
   return (
     <main>
       <h2>
-        <span role="img" aria-label="separation">💦</span>
         Stage 1 Separation
+        {' '}
+        <span role="img" aria-label="">🧑‍🚀</span>
       </h2>
       <p>
         You should be now engaged in your team and in flow. Sharing your ideas and
