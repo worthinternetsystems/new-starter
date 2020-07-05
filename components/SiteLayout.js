@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Link from 'next/link';
 import Menu from './Menu';
+import { useRouter } from 'next/router';
 
 const SiteLayout = ({ children }) => (
   <div className="container">
@@ -9,10 +10,13 @@ const SiteLayout = ({ children }) => (
       <link rel="icon" href="/favicon.ico" />
     </Head>
 
-    <h1><Link href="/"><a>Welcome to WORTH Engineering</a></Link></h1>
+    <h1>
+      <Link href="/">
+        <a>Welcome to WORTH Engineering</a>
+      </Link>
+    </h1>
     <div>{children}</div>
-
-    <Menu />
+    {useRouter().pathname !== "/" && <Menu />}
   </div>
 );
 
