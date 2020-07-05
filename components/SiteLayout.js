@@ -9,14 +9,16 @@ const SiteLayout = ({ children }) => (
       <title>Welcome</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
-
+    <header>
     <h1>
-      <Link href="/">
-        <a>Welcome to WORTH Engineering</a>
-      </Link>
+    <Link href="/">
+    <a>Welcome to WORTH Engineering</a>
+    </Link>
     </h1>
-    <div>{children}</div>
+
     {useRouter().pathname !== "/" && <Menu />}
+    </header>
+    <div>{children}</div>
   </div>
 );
 

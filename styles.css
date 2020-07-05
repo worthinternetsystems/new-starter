@@ -18,23 +18,39 @@ h2 {
   margin: 0;
 }
 
-ul.home, ul.menu {
-  font-size: 200%;
+.home, .menu {
+  font-size: 2rem
 }
 
 .home li, .menu li {
-  text-align: right;
+ text-align: left;
 }
 
-.home li ~ li,
-.menu li ~ li  {
- padding-top: 1em;
-}
 
 
 .menu {
-  border: 1px solid black;
-  padding: 1em;
+  padding: 0;
+  display: block;
+  width: 100%;
+}
+
+@media screen and (min-width: 720px) {
+  header {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3.75rem;
+  }
+  h1 {
+    margin: 0;
+  }
+  .menu {
+    width: 45%;
+    margin: 0;
+    font-size: 1.4rem;
+  }
+  .menu li {
+    text-align: right;
+  }
 }
 
 .menu li {
