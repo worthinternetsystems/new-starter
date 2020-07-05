@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Link from 'next/link';
+import Menu from './Menu';
 
 const SiteLayout = ({ children }) => (
   <div className="container">
@@ -10,34 +11,8 @@ const SiteLayout = ({ children }) => (
 
     <h1><Link href="/"><a>Welcome to WORTH Engineering</a></Link></h1>
     <div>{children}</div>
-    <ul className="menu">
-      <li>
-        <Link href="/launch/ignition">
-          <a>Ignition</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/launch/lift-off">
-          <a>Lift off!</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/launch/stage-one-seperation">
-          <a>Stage 1 Seperation</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/launch/stage-two-seperation">
-          <a>Stage 2 Seperation</a>
-        </Link>
-      </li>
-      <li>
-        <Link href="/launch/orbital">
-          <a>Orbital</a>
-        </Link>
-      </li>
-    </ul>
 
+    <Menu />
   </div>
 );
 
