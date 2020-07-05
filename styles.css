@@ -23,9 +23,14 @@ ul.home, ul.menu {
 }
 
 .home li, .menu li {
-  padding-top: 1em;
   text-align: right;
 }
+
+.home li ~ li,
+.menu li ~ li  {
+ padding-top: 1em;
+}
+
 
 .menu {
   border: 1px solid black;
