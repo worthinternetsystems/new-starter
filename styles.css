@@ -32,6 +32,15 @@ ul.home, ul.menu {
   padding: 1em;
 }
 
+.menu li {
+  text-decoration: line-through;
+}
+
+.menu li.active ~ li,
+.menu li.active {
+  text-decoration: none;
+}
+
 .raci {
   border: 1px solid black;
   margin-top: 4em;

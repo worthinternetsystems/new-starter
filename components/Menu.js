@@ -25,13 +25,16 @@ const Menu = () => {
       label: 'Orbital',
     },
   ];
-  const MenuItem = ({ address, label }) => (
-    <li>
-      <Link href={address}>
-        <a className={router.pathname === address ? 'active' : ''}>{label}</a>
-      </Link>
-    </li>
-  );
+  const MenuItem = ({ address, label }) => {
+    const activeClass = router.pathname === address ? 'active' : '';
+    return (
+      <li className={activeClass}>
+        <Link href={address}>
+          <a className={activeClass}>{label}</a>
+        </Link>
+      </li>
+    );
+  };
   return (
     <ul className="menu">
       {menu.map(({ address, label }) => (
