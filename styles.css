@@ -22,7 +22,10 @@ h2 {
   font-size: 2rem
 }
 
-.home li, .menu li {
+.home li {
+  text-align: right;
+}
+.menu li {
  text-align: left;
 }
 
