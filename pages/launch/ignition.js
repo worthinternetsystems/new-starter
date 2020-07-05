@@ -46,7 +46,6 @@ export default function Home() {
       <p>
         <ul>
           <li>
-
             Let&apos;s check the basics, have you got into your
             {' '}
             <a href="http://mail.google.com">email account</a>
@@ -130,7 +129,7 @@ export default function Home() {
           <span role="img" aria-label="">🦻</span>
         </li>
         <li className="informed">
-          Have you got your welcome box? Welcome email? some
+          Have you got your welcome box? Welcome email? Some
           calendar invites?
           {' '}
           <span role="img" aria-label="">📅</span>
