@@ -88,7 +88,7 @@ export default function Home() {
 
       <p>
         If you’ve got any spare moments, it’s worth getting your local
-        environment configured just the way you like it and exploring some 
+        environment configured just the way you like it and exploring some
         getting started guides.
       </p>
         <p>Tools we like:</p>
