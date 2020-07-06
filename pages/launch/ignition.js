@@ -12,11 +12,15 @@ export default function Home() {
         <span role="img" aria-label="">🤗</span>
       </p>
       <p>
-        We just want to make sure that you have access to anything you might need, you&apos;ve gotten
+        We just want to make sure that you have access to anything you might
+        need, you&apos;ve gotten
         onto slack and connected to channels
         like
         {' '}
         <a href="https://worthsystems.slack.com/archives/GBR1XHMDW">#worth-reading</a>
+        ,
+        {' '}
+        <a href="https://worthsystems.slack.com/archives/C789ES4V7">#worth-uk</a>
         ,
         {' '}
         <a href="https://worthsystems.slack.com/archives/C90RZ5XFU">#tech</a>
@@ -58,7 +62,8 @@ export default function Home() {
               <li>
                 Slack
                 <ul>
-                  <li><a href="https://worthsystems.slack.com/archives/GBR1XHMDW">worth-reading</a></li>
+                  <li><a href="https://worthsystems.slack.com/archives/GBR1XHMDW">#worth-reading</a></li>
+                  <li><a href="https://worthsystems.slack.com/archives/C789ES4V7">#worth-uk</a></li>
                   <li><a href="https://worthsystems.slack.com/archives/C90RZ5XFU">#tech</a></li>
                   <li><a href="https://worthsystems.slack.com/archives/CT2KUAG77">#fridayguild</a></li>
                   <li><a href="https://worthsystems.slack.com/archives/CSVNKPNN4">#readingbookclub</a></li>
@@ -142,14 +147,9 @@ export default function Home() {
         getting started guides.
       </p>
       <p>
-        Tools we like:
+        You might like to install some of the following tools that we like:
         <ul>
           <li><a href="https://brew.sh/">Brew (You can use this to quickly get the others!)</a></li>
-          <li>
-            <a href="https://code.visualstudio.com/">VSCode/IntelliJ</a>
-            {' '}
-            <code>brew cask install visual-studio-code</code>
-          </li>
           <li>
             <a href="https://fishshell.com/">Fish</a>
             /
@@ -163,20 +163,25 @@ export default function Home() {
             {' '}
           </li>
           <li>
+            <a href="https://git-scm.com/">Git</a>
+            {' '}
+            <code>brew install git</code>
+          </li>
+          <li>
+            <a href="https://code.visualstudio.com/">VSCode/IntelliJ</a>
+            {' '}
+            <code>brew cask install visual-studio-code</code>
+          </li>
+          <li>
             <a href="https://www.nano-editor.org/">nano</a>
             /
-            <a href="https://www.vim.org/">vim</a>
+            <a href="https://neovim.io/">neovim</a>
             {' '}
             <code>brew install nano</code>
             {' '}
             /
             {' '}
-            <code>brew install vim</code>
-          </li>
-          <li>
-            <a href="https://git-scm.com/">Git</a>
-            {' '}
-            <code>brew install git</code>
+            <code>brew install neovim</code>
           </li>
           <li>
             <a href="https://zoom.us/">Zoom</a>
@@ -191,7 +196,7 @@ export default function Home() {
         </ul>
       </p>
       <p>
-        Tech we currently like include:
+        You may like to following some getting started guides on the following awesome tech:
       </p>
       <p>
         <ul>
