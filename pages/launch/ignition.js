@@ -168,9 +168,15 @@ export default function Home() {
             <code>brew install git</code>
           </li>
           <li>
-            <a href="https://code.visualstudio.com/">VSCode/IntelliJ</a>
+            <a href="https://code.visualstudio.com/">VSCode</a>
+            /
+            <a href="https://www.jetbrains.com/idea/">IntelliJ</a>
             {' '}
             <code>brew cask install visual-studio-code</code>
+            {' '}
+            /
+            {' '}
+            <code>brew cask install intellij-idea-ce</code>
           </li>
           <li>
             <a href="https://www.nano-editor.org/">nano</a>
@@ -202,7 +208,7 @@ export default function Home() {
         <ul>
           <li>
             <a href="https://nodejs.org/en/">Node</a>
-            , Java &
+            , <a href="https://docs.oracle.com/en/java/">Java</a> &
             {' '}
             <a href="https://docs.microsoft.com/en-us/dotnet/csharp/">C#</a>
           </li>
