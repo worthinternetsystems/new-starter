@@ -17,7 +17,7 @@ export default function Home() {
           you've had a chance to say hello to everyone.
         </li>
         <li className="accountable">
-          Give Mark feedback. - What did you not like about the onboarding
+          Give us feedback. - What did you not like about the onboarding
           process?
         </li>
         <li className="consulted">Have you got feedback from your peers?</li>
