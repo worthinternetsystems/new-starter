@@ -25,20 +25,29 @@ const Menu = () => {
       label: 'Orbital',
     },
   ];
+
+  let pastActive = false;
   const MenuItem = ({ address, label }) => {
-    const activeClass = router.pathname === address ? 'active' : '';
+    let activeClass = '';
+    if (router.pathname === address) {
+      activeClass = 'active';
+      pastActive = true;
+    }
+
     return (
       <li className={activeClass}>
         <Link href={address}>
-          <a className={activeClass}>{label}</a>
+          <a className={activeClass}>
+            {!pastActive ? <span className="strike">{label}</span> : label}
+          </a>
         </Link>
       </li>
     );
   };
   return (
-    <ul className="menu">
-      {menu.map(({ address, label }) => (
-        <MenuItem address={address} label={label} key={address} />
+    <ul className='menu'>
+      {menu.map(({ address, label }, i) => (
+        <MenuItem address={address} index={i} label={label} key={address} />
       ))}
     </ul>
   );
