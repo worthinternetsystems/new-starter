@@ -13,7 +13,7 @@ export default function Home() {
       </p>
       <p>
         We just want to make sure that you have access to anything you might
-        need, you&apos;ve gotten
+        need, you&apos;ve signed
         onto slack and connected to channels
         like
         {' '}
