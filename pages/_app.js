@@ -1,5 +1,5 @@
-import '../styles.css';
-import SiteLayout from '../components/SiteLayout';
+import "../styles.css";
+import SiteLayout from "../components/SiteLayout";
 
 export default function MyApp({ Component, pageProps }) {
   return (
